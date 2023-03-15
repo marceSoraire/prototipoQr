@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.divQr {
+  display: flex;
+  justify-content: center;
+  width: 14%;
+  background: red;
+  margin: 5rem auto;
+  padding: 5px;
+  border: 2px solid blue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formularioQr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 18px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textos {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.QRcode {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  padding: 5px;
+  /* background: rgb(134, 132, 132); */
 }
-
-.App-link {
-  color: #61dafb;
+.submit {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  padding: 10px;
+  width: 50%;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  margin-top: 15px;
+  padding: 10px;
+  width: 50%;
+  background: lightgreen;
+  color: black;
+  cursor: pointer;
 }
